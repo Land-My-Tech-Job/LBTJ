@@ -8,7 +8,6 @@ Nikki makes changes local repository -> remote repository
 
 staged - any file/directory that is tracked and ready to be committed 
 
-
 Commands
     init
     clone
