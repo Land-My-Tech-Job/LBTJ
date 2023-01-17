@@ -1,4 +1,14 @@
 Git Fetch
     This will pull the changes of all the branch on the repo
     This will allow you to see the changes that I've made
-    
+Git checkout [yourBranch]
+    This will put you in your own branch
+Git branch
+    Ensure that you are in the right branch
+        * yourBranch
+          harrison
+          ...
+Git merge harrison 
+    NOTE: !!Make sure you are merging where you are in your own branch!! 
+Git rebase
+    if you have made any commits, this will put your commit ahead
