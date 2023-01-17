@@ -1,0 +1,11 @@
+1 Create a Javascript File named knowledge.js in the ‘Command Line’ Folder
+2 Declare a variable called first name in camel case
+3 Declare a variable called last name in snake case
+4 Declare a constant variable called current year with value 2023
+5 Add 1 to the value of current year and assign it to a variable called next year
+6 Print out the 4 previous value separated by a space
+7 Print out a comparison between current year and next year using one of the        comparison operators that we have discussed
+9 cp the knowledge.js into the Git folder
+10 paste the result of your output in this file
+11 Commit your changes on your branches and push them to your remote branch
+node knowledge.js
