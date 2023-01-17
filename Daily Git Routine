@@ -15,3 +15,5 @@ git rebase
 git log
     show the commit history and keep track of changes that occurs on your branch
     especially important if there are multiple ppl working on the same project
+
+    lorem ipsum
