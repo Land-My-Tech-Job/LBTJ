@@ -1,0 +1,24 @@
+git Fetch
+    This will pull the changes of all the branch on the repo
+    This will allow you to see the changes that I've made
+git checkout [yourBranch]
+    This will put you in your own branch
+git branch
+    Ensure that you are in the right branch
+        * yourBranch
+          harrison
+          ...
+git commit --amend
+    Modify the most recent commit 
+    press escape key > type :wq to exit the message prompt
+
+Helpful to know but not Daily
+git merge  
+    merge other changes into your own branch
+    NOTE: !!Make sure you are merging where you are in your own branch/branch you want new commits into!! 
+    add --squash to combine all your commits into one 
+git rebase
+    if you have made any commits, this will put your commit ahead of the rebased branch
+git log
+    show the commit history and keep track of changes that occurs on your branch
+    especially important if there are multiple ppl working on the same project
