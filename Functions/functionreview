@@ -1,0 +1,17 @@
+Create the following in a file called review.js
+
+1. global variable 
+        called num which is equal to 2
+2. function declaration 
+        takes 3 number parameters
+        returns the total
+3. function expression 
+        creates a variable called name
+        creates a variable called currentYear
+        add currentYear to global variable num
+        prints out your name and the current year
+4. arrow function 
+        prints out the value name
+5. arrow function named callCollect
+        calls the 3 previous function
+6. call callCollect function
