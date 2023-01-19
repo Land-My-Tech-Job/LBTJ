@@ -11,7 +11,9 @@ Create the following in a file called review.js
         add currentYear to global variable num
         prints out your name and the current year
 4. arrow function 
-        prints out the value name
+        prints out the value num
 5. arrow function named callCollect
         calls the 3 previous function
 6. call callCollect function
+
+
