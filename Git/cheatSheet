@@ -1,0 +1,11 @@
+// COMMITTING AND PUSHING
+// show changes in terminal
+git status
+// stage every change for commit
+git add . // refers to everything
+// commit with a message
+git commit -m "message"
+// add changes to last commit
+git commit -amend 
+// pushing to remote 
+git push
