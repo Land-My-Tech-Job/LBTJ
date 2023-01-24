@@ -11,7 +11,7 @@ let currentYear = 2023;
 num = currentYear + num;
 console.log("name"+ "currentYear");
 
-const name = (b) => b + 100;
+ name = (b) => b + 100;
 console.log("name");
 
 callCollect =() => { 'num', 'multiplyBy' , 'name' + 'currentYear'
@@ -19,3 +19,4 @@ callCollect =() => { 'num', 'multiplyBy' , 'name' + 'currentYear'
 }
 
 function callCollect ()
+const birthDate = 2023
