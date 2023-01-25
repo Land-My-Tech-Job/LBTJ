@@ -9,7 +9,14 @@ troubleshooting for Git
         git checkout -b nameOfBranch - create AND switch to nameOfBranch
         git checkout nameOfBranch - switches to nameOfBranch
 
-    
+        if brought to text editor (aka vi, when amending a commit OR having issues on commit message) perform the following action
+            press the <esc> key (you will know if it doesn't say insert at the bottom left)
+            type ":q" to quit ":q!" to force quit ":wq" to save and quit
 
+        git pull vs fetch - pull takes all the remote changes and fetch pull changes but doesn't apply them immmediately
+
+    
+    switch to the harrison branch
+    type git pull to get the changes that I pushed
 
 function 

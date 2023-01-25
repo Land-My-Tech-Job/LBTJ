@@ -11,6 +11,7 @@ staged - any file/directory that is tracked and ready to be committed
 Commands
     init
     clone
+        clone a remote repository onto an existing folder
 
     status
     add
