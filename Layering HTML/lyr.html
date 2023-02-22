@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" />
+    <title>Javascript + HTML</title>
+    <script>
+        // const userAge = window.prompt("Enter your age: ");
+        // window.alert(`You are ${userAge} years old!`)
+        
+        // const str = window.prompt('type a string: ')
+        // window.alert(`${str.toUpperCase()}`)
+
+        // const num = window.prompt('Enter a number: ')
+        // if (isNaN(num) === false) { // if (false)
+        //     window.alert(`${(num * 2)}`)
+        // } else {
+        //     window.alert(`Please enter a number next time: `)
+        // }
+         //true if I put in a string 
+
+        //create this array using prompt and alert
+        //  let animals = ['cat', 'dog', 'raccoon', 'giraffe']
+
+        // const animals = []
+        // for (let i = 0; i < 4; i++ ){
+        //     animals.push(window.prompt('Enter a animal: '))
+        // }
+
+        // using loops and if statements create a function that 
+        // asks the user for a number and keep tracks of the total
+        // return the average at the end
+        // quit when a number is not used
+
+        const num = parseInt(window.prompt('Enter a number: '))
+        let trackNum = num
+        let index = 1
+
+        const fn = () => {
+            let userInputNum = parseInt(window.prompt('Enter a number'))
+            
+            trackNum += userInputNum // trackNum = trackNum + userInputNum
+            index++;
+
+            return (trackNum / index)
+        }
+        
+        while (isNaN(num) === false){
+            window.alert(`the current average is ${fn()}`)
+        }
+
+        /*
+            * create a function
+                * ask user for a number
+                * keep track of the total
+                * returns the average by the end
+                * quit when a number is being 
+        */
+
+        /*
+            * first ask the user for an animal
+            * store the animal inside a variable
+            * push the variable inside the array
+            * print out the content of the array
+        */
+
+        /*
+            * use window.prompt() to ask the user to type a string
+            * use window.alert() to display the string
+            * display fully capitalized version of the string
+        */
+    </script>
+</head>
+<body>
+    This is my website.
+</body>
+</html>
+

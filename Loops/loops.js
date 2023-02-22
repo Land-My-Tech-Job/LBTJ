@@ -29,9 +29,9 @@
 
 // Log all multiples of 10 between 10 and 100
 // Log all multiples of 10 between 100 and 0, descending
-// for (let i = 10; i <= 100; i+=10) {
-//     console.log(i)
-// }
+for (let i = 10; i <= 100; i+=10) {
+    console.log(i)
+}
 /*
     i = 10 -> i <= 100 -> print i -> add 10 to i
     i = 20 -> i <= 100 -> print i -> add 10 to i
@@ -55,10 +55,10 @@
   * @returns {Array} 
 */
 // const fill = (arraySize, value) => {
-//     let arr = []
-//     for (let i = 0; i < arraySize; i++) {
-//         arr.push(value)
-//     } 
+    let arr = []
+    for (let i = 0; i < arraySize; i++) {
+        arr.push(value)
+    } 
     /* 
         1 < 3 -> push to arr -> 1 + 1
         2 < 3 -> push to arr -> i = 3
