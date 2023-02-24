@@ -113,19 +113,19 @@
 
 // */
 
-// let films = [
-//     {name: "Friday", director: "F. Gary Gray", released: 1995}, // films[0].name
-//     {
-//     name: "Soul Plane",
-//     director: "Jessy Terrero",
-//     released: 2004,
-//     },
-//     {
-//     name: "Best Man",
-//     director: "Malcolm D. Lee",
-//     released: 1999,
-//     },
-// ]
+let films = [
+    {name: "Friday", director: "F. Gary Gray", released: 1995}, // films[0].name
+    {
+    name: "Soul Plane",
+    director: "Jessy Terrero",
+    released: 2004,
+    },
+    {
+    name: "Best Man",
+    director: "Malcolm D. Lee",
+    released: 1999,
+    },
+]
 // for (let i = 0; i < films.length; i++) {
 //     // console.log(films[i].name)
 // }

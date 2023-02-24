@@ -1,0 +1,226 @@
+<!-- Complete the function increment so that each time the button is hit, the number displayed inside span#count is incremented by 1. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Incrementer</title>
+</head>
+
+<body>
+
+    <div id="div1">
+        <p id="para1">This is the first paragraph</p>
+        <p id="para2">This is the second paragraph</p>
+    </div>
+    <button onclick="replaceFirstParagraph()"> Replace the first paragraph </button>
+    <script type="text/javascript">
+        
+        const replaceFirstParagraph = () => {
+            const firstPara = document.querySelector("p");
+            const newNode = document.createElement("p");
+            newNode.textContent = "Here's a new random number: " + Math.random();
+            firstPara.parentNode.replaceChild(newNode, firstPara);
+        }
+        
+    </script>
+
+    <!-- <div id="div1">
+        <p id="para1">This is the first paragraph</p>
+        <p id="para2">This is the second paragraph</p>
+    </div>
+        <button onclick="deleteFirstParagraph()">Delete the first paragraph</button>
+    <script type="text/javascript">
+    
+    const deleteFirstParagraph = () => {
+    const paraOne = document.getElementById("para1");
+    paraOne.parentNode.removeChild(paraOne);
+    }
+    </script> -->
+
+    <!-- <div id="div1">
+        <p id="para1">This is the first paragraph</p>
+        <p id="para2">This is the second paragraph</p>
+    </div>
+        <button onclick="deleteFirstParagraph()">Delete the first paragraph</button>
+        <script type="text/javascript">
+        
+        const deleteFirstParagraph = () => {
+        const divisionOne = document.getElementById("div1");
+        const paraOne = document.getElementById("para1");
+        divisionOne.removeChild(paraOne);
+        }
+        
+    </script> -->
+    <!-- <h1>Today's Cubs Lineup</h1>
+    <ol id="lineupList"></ol>
+    <script>
+    
+        const getDescription = (player) => {
+            return `${player.name} (${player.hand} ${player.position})`;
+        }
+        
+        const allPlayers = [
+        { name: "Jason Heyward", hand: "L", position: "RF" },
+        { name: "Nicholas Castellanos", hand: "R", position: "RF" },
+        { name: "Kris Bryant", hand: "R", position: "3B" },
+        { name: "Anthony Rizzo", hand: "L", position: "1B" },
+        { name: "Javier Baez", hand: "R", position: "SS" },
+        { name: "Kyle Schwarber", hand: "L", position: "LF" },
+        { name: "Ian Happ", hand: "S", position: "LF" },
+        { name: "Victor Caratini", hand: "S", position: "LF" },
+        { name: "Jon Lester", hand: "L", position: "P" },
+        ];
+        
+        const listElement = document.getElementById("lineupList");
+        
+        for (const player of allPlayers) {
+            const newPlayerListItem = document.createElement("li");
+            newPlayerListItem.textContent = getDescription(player);
+            listElement.appendChild(newPlayerListItem);
+        }
+    </script> -->
+
+    <!-- <h1>Today's Cubs Lineup</h1>
+    <ol id="lineupList">
+        <li>Jason Heyward (L) RF</li>
+        <li>Nicholas Castellanos (R) RF</li>
+        <li>Kris Bryant (R) 3B</li>
+        <li>Anthony Rizzo (L) 1B</li>
+        <li>Javier Baez (R) SS</li>
+        <li>Kyle Schwarber (L) LF</li>
+        <li>Ian Happ (S) LF</li>
+        <li>Victor Caratini (S) C</li>
+    </ol>
+    <script>
+        let lesterListItem = document.createElement("li");
+        lesterListItem.textContent = "Jon Lester (L) P";
+        let listElement = document.getElementById("lineupList");
+        listElement.appendChild(lesterListItem);
+    </script> -->
+
+    <!-- <p>This is my website!</p>
+    <script>
+        let endingPara = document.createElement("p");
+        endingPara.textContent = "Thanks for visiting!";
+        document.body.appendChild(endingPara);
+    </script> -->
+
+    <!-- <p>This is my website!</p>
+    <p>And I even have two paragraphs!</p>
+    <script>
+        let allParaElements = document.querySelectorAll("p");
+        for (let element of allParaElements) {
+        window.alert(element.textContent);
+        }
+    </script> -->
+
+    <!-- <p id="introPara">This is my website!</p>
+    <p id="additionalPara">And I even have two paragraphs!</p>
+    <script>
+    let paraElement = document.querySelector("#additionalPara");
+    window.alert(paraElement.textContent);
+    </script> -->
+
+
+    <!-- <h1 id="top-heading">I can count!</h1>
+    <p>The count is at: <span id="count">0</span></p>
+    <button onclick="increment()">Increment</button>
+    <script>
+        const increment = () => {
+            const currentCount =  parseInt(document.getElementById('count').textContent)
+            console.log(`c Count is ${currentCount}`)
+            console.log('hello my name is harrion')
+            let tempCount = currentCount + 1
+            const displayedCount = document.getElementById('count')
+            displayedCount.textContent = tempCount
+        };
+    </script> 
+
+
+    <body>
+    <h1 id="top-heading">My Website</h1>
+    <p id="welcome-para">Welcome to my website</p>
+    <p>
+        Enter your name:
+        <input type="text" id="name-input-text" placeholder="First Name" />
+    </p>
+
+    <button onclick="addNameToHeading()">Submit</button>
+    
+    <p id="last-para">Thank you for visiting</p>
+
+    <script>
+        const addNameToHeading = () => {
+            const nameInputElement = document.getElementById("name-input-text");
+            const userSubmittedName = nameInputElement.value; // for input value
+            // const welcomeElementPara = document.getElementById("welcome-para").textContent; // for elements
+            const topHeadingElement = document.getElementById("top-heading");
+            topHeadingElement.textContent = `My Website: Made especially for ${userSubmittedName}`;
+        };
+    </script> -->
+    
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<title>Javascript + HTML</title>
+</head>
+
+
+ -->
+    
+
+<!-- </body>
+</html> -->
+
+
+
+<!--
+    <body>
+    <h1>My Website</h1>
+    <p id="welcome-para">Welcome to my website</p>
+    <p id="last-para">Thank you for visiting</p>
+    <script>
+        const welcomeElementPara = document.getElementById("welcome-para").textContent; !!
+        // object   method/(object function) parameter
+        // document getElementById          welcome-para
+        window.alert(`The welcome paragraph element text is ${welcomeElementPara}`);
+    </script>
+    </body>
+    
+    * why does ${welcomeElementPara} returns null in the windows alert?
+
+    * browser loads from top to bottom starting from the index (usually unless told otherwise)
+    * window.alert will stop the loading of the page 
+    * head(<head>) tag will load first before the body(<body>) tag
+    
+    steps for loading a page
+    > load html tag
+    > load head tag
+        > load and execute content
+    > load body tag
+        > load and execute content
+
+    pseudo-shape of the Document-Object Model
+        let document = {
+        root: {
+            head: {
+                title: {
+
+                }
+                ...
+            },
+            body: {
+                h1: {
+
+                }
+                ...
+            }
+        },
+}
+
+
+-->
