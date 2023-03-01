@@ -1,0 +1,113 @@
+<!-- 
+JavaScript events provide a way for you to trigger an action in your program when certain things happen. 
+The most common type of event is probably the click, which occurs when someone clicks on something 
+
+An event listener is basically a non-blocking infinite loop with a callback function, and when it "hears" an event, it triggers the callback function. 
+It sits and waits until it's called.
+
+DOMContentLoaded is the event fired every time the HTML document has been completely loaded and parsed.
+
+Much of our code will always be inside a callback to this function because we can't manipulate the DOM until the document object has been fully built. 
+-->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="index.js"></script>
+
+<title>Document</title>
+</head>
+<body>
+
+
+<h1>Welcome to my website.</h1>
+<p>The JavaScript runs in its own file!</p>
+<p>This is more text</p>
+<p>And this is yet even more text</p>
+
+</body>
+</html> -->
+
+<!-- The click event is fired when an element is clicked. You can add a click event to any element, including the entire document! -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="index.js"></script>
+<title>Document</title>
+</head>
+<body>
+<h1>Welcome to my website.</h1>
+<button id="favoriteButton">This is my favorite button</button>
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="index.js"></script>
+<title>Document</title>
+</head>
+<body>
+<h1>Welcome to my website.</h1>
+<form>
+<p>This is my form</p>
+<p>Enter your name:</p>
+<input type="text" />
+<button>Submit</button>
+</form>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="index.js"></script>
+<title>Document</title>
+</head>
+<body>
+    <h1>Welcome to my website.</h1>
+    <ul id="unordered-list">
+        <li id="first">First item!</li>
+        <li id="second">Second item!</li>
+        <ol id="ordered-list">
+            <li id="ordered-first">This is ordered</li>
+            <li id="ordered-second">So is this!</li>
+        </ol>
+        <li id="third">Third item!</li>
+    </ul>
+</body>
+</html>
+
+
+
+
+
+<!-- <script>
+    
+const getDescription = (player) => {
+    return `${player.name} (${player.hand} ${player.position})`;
+}
+
+const allPlayers = [
+{ name: "Jason Heyward", hand: "L", position: "RF" },
+{ name: "Nicholas Castellanos", hand: "R", position: "RF" },
+{ name: "Kris Bryant", hand: "R", position: "3B" },
+{ name: "Anthony Rizzo", hand: "L", position: "1B" },
+{ name: "Javier Baez", hand: "R", position: "SS" },
+{ name: "Kyle Schwarber", hand: "L", position: "LF" },
+{ name: "Ian Happ", hand: "S", position: "LF" },
+{ name: "Victor Caratini", hand: "S", position: "LF" },
+{ name: "Jon Lester", hand: "L", position: "P" },
+];
+
+const listElement = document.getElementById("lineupList");
+
+for (const player of allPlayers) {
+    const newPlayerListItem = document.createElement("li");
+    newPlayerListItem.textContent = getDescription(player);
+    listElement.appendChild(newPlayerListItem);
+}
+
+</script> -->
