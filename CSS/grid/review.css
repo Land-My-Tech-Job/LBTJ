@@ -1,0 +1,31 @@
+.topnav {
+    background: lightgrey
+
+}
+
+.botnav {
+    background: black;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 1fr;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: .25fr 1fr .25fr;
+    grid-template-rows: minmax(600px, auto);
+}
+
+.index {
+    background: grey;
+}
+
+.body {
+}
+
+.ad {
+    background: red;
+}

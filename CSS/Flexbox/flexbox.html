@@ -1,0 +1,239 @@
+<!-- <html>
+<head>
+<link rel="stylesheet" href="flexbox.css">
+</head>
+<body>
+<section class="images">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/%27Autumn_Morning_at_%C3%89ragny%27_by_Camille_Pissarro%2C_1897%2C_Pushkin_Museum.JPG/300px-%27Autumn_Morning_at_%C3%89ragny%27_by_Camille_Pissarro%2C_1897%2C_Pushkin_Museum.JPG" alt="">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Camille_Pissarro_022.jpg/320px-Camille_Pissarro_022.jpg" alt="">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Camille_Pissarro_018.jpg/314px-Camille_Pissarro_018.jpg" alt="">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Pissarro%2C_Camille%2C_Les_chataigniers_a_Osny_%28The_Chestnut_Trees_at_Osny%29%2C_1873.jpg/300px-Pissarro%2C_Camille%2C_Les_chataigniers_a_Osny_%28The_Chestnut_Trees_at_Osny%29%2C_1873.jpg" alt="">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Camille_Pissarro_017.jpg/293px-Camille_Pissarro_017.jpg" alt="">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Pissarro_-_The_Louvre_Under_Snow_1902.jpg/301px-Pissarro_-_The_Louvre_Under_Snow_1902.jpg" alt="">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Camille_Pissarro_%281830-1903%29_-_%27Morning%2C_Winter_Sunshine%2C_Frost%2C_the_Pont-Neuf%2C_the_Seine%2C_the_Louvre%2C_Soleil_D%27hiver_Gella_Blanc%27%2C_ca._1901.jpg/301px-Camille_Pissarro_%281830-1903%29_-_%27Morning%2C_Winter_Sunshine%2C_Frost%2C_the_Pont-Neuf%2C_the_Seine%2C_the_Louvre%2C_Soleil_D%27hiver_Gella_Blanc%27%2C_ca._1901.jpg" alt="">
+</section>
+</body>
+</html> -->
+
+
+<html>
+    <head>
+        <title>My first web page</title>
+        <link rel="stylesheet" href="flexbox.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+<body>
+<main class="flex-container">
+    <!-- all CONTAINER -->
+    <section class="flex-item">
+        <h1>This is my first web page.</h1>
+        <p>How <em>exciting</em>!</p>
+        <p><strong>Isn't it?</strong></p>
+    </section>
+    
+    <section class="flex-item">
+        <h2>Let's make a list!</h2>
+        <ul>
+            <li>First item!</li>
+            <li>Second item!</li>
+            <li>Third item!</li>
+        </ul>
+    </section>
+    
+    <section class="flex-item">
+        <h2>Links</h2>
+        <a href="https://www.google.com">Take me to Google!</a>
+    </section>
+
+    <section class="flex-item">
+        <h2>Images</h2>
+        <img src="https://pbs.twimg.com/profile_images/446566229210181632/2IeTff-V_400x400.jpeg" alt="Puppy!" width="300"/>
+    </section>
+    
+    <section class="flex-item">
+        <h2>Table</h2>
+        <table>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </tr>
+            <tr>
+                <td>Row 1, cell 1</td>
+                <td>Row 1, cell 2</td>
+                <td>Row 1, cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, cell 1</td>
+                <td>Row 2, cell 2</td>
+                <td>Row 2, cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 3, cell 1</td>
+                <td>Row 3, cell 2</td>
+                <td>Row 3, cell 3</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section class="flex-item">
+        <h2>Form</h2>
+        <form>
+            First name:<br>
+            <input type="text" name="firstname" value="First name"><br>
+            Last name:<br>
+            <input type="text" name="lastname" placeholder="Last name"><br>
+            <input type="radio" name="gender" value="male"> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other<br>
+            <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+            <input type="checkbox" name="vehicle2" value="Car"> I have a car<br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+<!-- ********************************************* -->
+        <!-- ONE CONTAINER -->
+    <!-- <div class="box-container">
+
+        <section class="flex-item">
+            <h1>This is my first web page.</h1>
+            <p>How <em>exciting</em>!</p>
+            <p><strong>Isn't it?</strong></p>
+        </section>
+        
+        <section class="flex-item">
+            <h2>Let's make a list!</h2>
+            <ul>
+                <li>First item!</li>
+                <li>Second item!</li>
+                <li>Third item!</li>
+            </ul>
+        </section>
+        
+        <section class="flex-item">
+            <h2>Links</h2>
+            <a href="https://www.google.com">Take me to Google!</a>
+        </section>
+
+        <section class="flex-item">
+            <h2>Images</h2>
+            <img src="https://pbs.twimg.com/profile_images/446566229210181632/2IeTff-V_400x400.jpeg" alt="Puppy!" width="300"/>
+        </section>
+        
+        <section class="flex-item">
+            <h2>Table</h2>
+            <table>
+                <tr>
+                    <th>Column 1</th>
+                    <th>Column 2</th>
+                    <th>Column 3</th>
+                </tr>
+                <tr>
+                    <td>Row 1, cell 1</td>
+                    <td>Row 1, cell 2</td>
+                    <td>Row 1, cell 3</td>
+                </tr>
+                <tr>
+                    <td>Row 2, cell 1</td>
+                    <td>Row 2, cell 2</td>
+                    <td>Row 2, cell 3</td>
+                </tr>
+                <tr>
+                    <td>Row 3, cell 1</td>
+                    <td>Row 3, cell 2</td>
+                    <td>Row 3, cell 3</td>
+                </tr>
+            </table>
+        </section>
+        
+        <section class="flex-item">
+            <h2>Form</h2>
+            <form>
+                First name:<br>
+                <input type="text" name="firstname" value="First name"><br>
+                Last name:<br>
+                <input type="text" name="lastname" placeholder="Last name"><br>
+                <input type="radio" name="gender" value="male"> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> Other<br>
+                <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+                <input type="checkbox" name="vehicle2" value="Car"> I have a car<br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div> -->
+<!-- ********************************************* -->
+        <!-- TWO CONTAINER -->
+
+    <!-- <div class="box-container">
+        <section class="flex-item">
+            <h1>This is my first web page.</h1>
+            <p>How <em>exciting</em>!</p>
+            <p><strong>Isn't it?</strong></p>
+        </section>
+        
+        <section class="flex-item">
+            <h2>Let's make a list!</h2>
+            <ul>
+                <li>First item!</li>
+                <li>Second item!</li>
+                <li>Third item!</li>
+            </ul>
+        </section>
+        
+        <section class="flex-item">
+            <h2>Links</h2>
+            <a href="https://www.google.com">Take me to Google!</a>
+        </section>
+    </div>
+    <div class="box-container">
+        <section class="flex-item">
+            <h2>Images</h2>
+            <img src="https://pbs.twimg.com/profile_images/446566229210181632/2IeTff-V_400x400.jpeg" alt="Puppy!" width="300"/>
+        </section>
+        
+        <section class="flex-item">
+            <h2>Table</h2>
+            <table>
+                <tr>
+                    <th>Column 1</th>
+                    <th>Column 2</th>
+                    <th>Column 3</th>
+                </tr>
+                <tr>
+                    <td>Row 1, cell 1</td>
+                    <td>Row 1, cell 2</td>
+                    <td>Row 1, cell 3</td>
+                </tr>
+                <tr>
+                    <td>Row 2, cell 1</td>
+                    <td>Row 2, cell 2</td>
+                    <td>Row 2, cell 3</td>
+                </tr>
+                <tr>
+                    <td>Row 3, cell 1</td>
+                    <td>Row 3, cell 2</td>
+                    <td>Row 3, cell 3</td>
+                </tr>
+            </table>
+        </section>
+        
+        <section class="flex-item">
+            <h2>Form</h2>
+            <form>
+                First name:<br>
+                <input type="text" name="firstname" value="First name"><br>
+                Last name:<br>
+                <input type="text" name="lastname" placeholder="Last name"><br>
+                <input type="radio" name="gender" value="male"> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> Other<br>
+                <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+                <input type="checkbox" name="vehicle2" value="Car"> I have a car<br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div> -->
+</main> 
+</body>
+</html>
