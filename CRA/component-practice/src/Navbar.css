@@ -1,0 +1,35 @@
+body {
+    background-color: beige;
+}
+
+div {
+    flex-wrap: wrap;
+}
+
+nav {
+    display: flex;
+    height: 3.875rem;
+    padding: 0 1.5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    padding: .5em;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.subs {
+    background-color: darkslategrey;
+    color: #000;
+}
+
+.logs {
+    border-style: solid 1px;
+}
+
